@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Community_API.Database\Community_API.Database.csproj" />
+    <ProjectReference Include="..\Community_API.DTO\Community_API.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
